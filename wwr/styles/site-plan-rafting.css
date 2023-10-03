@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Unbounded:wght@300&family=Young+Serif&display=swap');
+
+:root {
+    --primary-color: #264653;
+    --secondary-color: #6d9dc5;
+    --accent1-color: #f7cb15;
+    --accent2-color: #00916e;
+
+    --heading-font: "Righteous", Serif;
+    --paragraph-font: "Unbounded", Serif;
+
+    --nav-background-color: #fdfffc;
+    --nav-link-color: #6d9dc5;
+    --nav-hover-link-color: #f7cb15;
+    --nav-hover-background-color: #00916e;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
