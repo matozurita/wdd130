@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: "CroissantOne-Regular"; /* this should be the rest of the output you got from Google Fonts */
@@ -27,6 +31,7 @@ h1 {
   color: steelblue;
 }
 main img {
+  float: right;
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
@@ -40,7 +45,7 @@ nav {
 nav a {
   color: white;
   display: block;
-  padding: 20px;
+  padding: 10px;
 }
 
 main {
@@ -48,18 +53,21 @@ main {
 }
 
 aside {
+  position: relative;
   width: 20rem;
-  margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 1rem;
-  background-color: #eee;
-  color: #333;
   text-align: center;
 }
 
 aside img {
-  width: 200px;
+
+  width: 150px;
   height: auto;
+}
+
+aside h2 {
+  position: absolute;
+  top: 10px;
+  left: 60px;
 }
 
 footer {
@@ -67,4 +75,14 @@ footer {
   border-top: 1px solid #000;
   
   text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 1rem;
+  color: peru;
+  background-color: yellowgreen;
 }
