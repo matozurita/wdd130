@@ -13,6 +13,7 @@ html {
 p,
 li {
   padding: 0;
+  margin: 1rem;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
@@ -83,6 +84,10 @@ footer {
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 1);
   padding: 1rem;
-  color: peru;
+  color: rgba(0, 0, 0, 1);
   background-color: yellowgreen;
+}
+
+.indent {
+  padding-left: 2rem;
 }
