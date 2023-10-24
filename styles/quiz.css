@@ -30,13 +30,13 @@ form{
 
 label {
     text-align: left;
-    padding: 1rem;
+    padding: 0.rem;
     margin: 0.3rem;
 }
 
 input, select, textarea {
-    margin: .3rem;
-    padding: 1rem;
+    margin: 0.3rem;
+    padding: 8px;
     font-size: 1rem;
     justify-content: center;
     align-items: center;
