@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>WDD 130 | HTML Form - User Poll</title>
+        <link rel="stylesheet" href="styles/poll-form.css">
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 | Mateo Zurita | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full name:</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" name="useremail" id="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="browser">What is your favorite browser?</label>
+                        <select name="browser" id="browser">
+                            <option value="Google Chrome">Google Chrome</option>
+                            <option value="Safari">Safari</option>
+                            <option value="Internet Explorer">Internet Explorer</option>
+                        </select><br><br>
+                    </div>
+                    <div class="form-item column1">    
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" name="pet" id="pet"><br><br>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="places">List the places you have lived:</label><br>
+                    </div>
+                        <textarea name="places" id="places" rows="4" placeholder="Quito, Cusco, Puno, Quillabamba, Brasil"></textarea>
+
+                </fieldset>
+            <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>©2023 HTML Form - User Poll Activity 🎵 Mateo Zurita 🎵 </p>
+        </footer>
+    </body>
+</html>
