@@ -220,3 +220,28 @@ a img {
     max-block-size: 25px;
 
 }
+
+form {
+    width: 650px;
+    display: grid;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: .5rem;
+
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 2px;
+    margin: 4px;
+    padding: 1rem;
+}
+
+.contactbody {
+    text-align: center;
+}
+
+input {
+    margin: .2rem;
+}
