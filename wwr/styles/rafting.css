@@ -271,3 +271,12 @@ figcaption {
     max-width: 250px;
 }
 
+button {
+    margin: 1px;
+    max-width: 100px;
+    padding: .3rem;
+}
+
+button:hover {
+    background-color: var(--accent2-color);
+}
